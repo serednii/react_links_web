@@ -2,12 +2,22 @@ import './ButtonsAdd.scss'
 // import Button from 'react-bootstrap/Button';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
+import Context from '../../../Context';
+import { useContext } from 'react';
+
 function ButtonsAdd() {
+    const valueContext = useContext(Context)
+    function handlerOpenPopup() {
+        valueContext.setIsButtonPlus(!valueContext.isButtonPlus);
+        valueContext.seIsChangeLinks(false);
+
+    }
+
+
+
     return (
-        <div className='buttonsadd'>
-            <Button variant="primary">Add new category</Button>
-            <Button variant="success">Add new sub category</Button>
-            <Button variant="info">Add new links</Button>
+        <div className='buttonsAdd'>
+            <Button variant="primary" onClick={handlerOpenPopup}>Add new category</Button>
         </div>
     )
 }
