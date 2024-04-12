@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SeredniaAnastasia/react_links_web/static/css/main.a97e62ee.css",
-    "main.js": "/SeredniaAnastasia/react_links_web/static/js/main.2114afde.js",
+    "main.css": "/SeredniaAnastasia/react_links_web/static/css/main.b62e599f.css",
+    "main.js": "/SeredniaAnastasia/react_links_web/static/js/main.8ec23508.js",
     "index.html": "/SeredniaAnastasia/react_links_web/index.html",
-    "main.a97e62ee.css.map": "/SeredniaAnastasia/react_links_web/static/css/main.a97e62ee.css.map",
-    "main.2114afde.js.map": "/SeredniaAnastasia/react_links_web/static/js/main.2114afde.js.map"
+    "main.b62e599f.css.map": "/SeredniaAnastasia/react_links_web/static/css/main.b62e599f.css.map",
+    "main.8ec23508.js.map": "/SeredniaAnastasia/react_links_web/static/js/main.8ec23508.js.map"
   },
   "entrypoints": [
-    "static/css/main.a97e62ee.css",
-    "static/js/main.2114afde.js"
+    "static/css/main.b62e599f.css",
+    "static/js/main.8ec23508.js"
   ]
 }
